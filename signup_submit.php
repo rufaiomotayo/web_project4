@@ -36,7 +36,7 @@ if(isset($_POST["username"]) && !empty($_POST["password"])){
     }else{
     ?>
     <h2>Congrats! You have signed up successfully!</h2>
-    <p>Login to play JEOPARDY!!! <br>
+    <p>Click to Login <br>
     <a href="login.php">Login</a>
     </p>
     <?php
