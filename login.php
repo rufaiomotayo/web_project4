@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="signup_login.css">
   </head>
   <body>
-    <h1>Login to start the Jeopardy!</h1>
+    <h1>Login </h1>
     <div class="enter">
       <form class="" action="login_submit.php" method="post">
         <div class="enter_input">
