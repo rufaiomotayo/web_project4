@@ -1,0 +1,43 @@
+body{
+  /* background: navy; */
+  font-family: sans-serif;
+
+}
+h1,h2{
+  text-align: center;
+  color: black;
+}
+p{
+  text-align: center;
+  color: black;
+}
+input{
+  border-radius: 5px;
+  width: 200px;
+  height: 30px;
+}
+a{
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  color: orange;
+  text-decoration: none;
+}
+.enter{
+  text-align: center;
+  display: block;
+}
+.enter_input{
+  display: flex;
+  flex-direction: column;
+  /* color: white; */
+}
+.input_box{
+  display: inline-block;
+  font-size: 17px;
+  margin: auto;
+  padding: 6px 0;
+  width: 364px;
+}
