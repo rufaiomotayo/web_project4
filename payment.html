@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Payment</title>
+    <link rel="stylesheet" href="payment.css">
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="payment">
+        <div class="gray_area">
+          <div class="payment_title">
+            <p>Pay Invoice</p>
+          </div>
+        </div>
+
+        <div class="payment_details">
+          <form class="personal_info" name="payment_info" action="payment_submit.php" method="post">
+            <!-- Image -->
+            <div class="accepted_card_type">
+              <img src="card_type.png" alt="accepted card type" width="200" height="50">
+            </div>
+            <!-- Name on Card -->
+            <div class="card_name">
+              Name on Card <br>
+              <input id="card_name" type="text" name="card_name">
+
+            </div>
+
+            <!-- Card Number -->
+            <div class="card_number">
+              Card Number <br>
+              <input id="card_number" type="text" name="card_number" onclick="checkDigit(document.payment_info.card_number)">
+              <!-- Check entered inputs are all numbers  -->
+              <!-- With JavaScript -->
+
+            </div>
+            <!-- Expired Date & CVV -->
+            <div class="expire_cvv_row">
+              <div class="expiry_date">
+                Expiry Date <br>
+                <input id="row" type="text" name="expiry_date" placeholder="MM/YY">
+              </div>
+              <div class="cvv_code">
+                Security Code <br>
+                <input id="row" type="text" name="cvv_code">
+              </div>
+            </div>
+            <!-- Zipcode -->
+            <div class="zipcode">
+              ZIP/Postal Code <br>
+              <input type="text" name="zipcode" placeholder="e.g. 90740">
+            </div>
+            <!-- Pay Button -->
+            <div class="pay">
+              <br>
+              <input id="submit" type="submit" name="pay">
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+    <div class="">
+      <p>
+        I was thinking about designing it like this but haven't figure out all the css<br>
+        This is just scratch. Was working on the credit card validation.
+        <img src="creditcard.png" alt="">
+      </p>
+    </div>
+  </body>
+</html>

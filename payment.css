@@ -1,0 +1,44 @@
+body{
+  font-family: Georgia;
+  /* color: #ADADAD; */
+}
+.container{
+  display: flex;
+  margin-top: 200px;
+  margin-left: 25%;
+}
+.payment{
+  flex-direction: column;
+  padding: 30px;
+  border: solid #D6D6D6 1px;
+}
+.gray_area{
+  background-color: #ADADAD;
+}
+.payment_title{
+  margin: 0;
+  padding: 0;
+  background-color: #D6D6D6;
+}
+.payment_title p {
+  text-align: center;
+}
+.accepted_card_type{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.expiry_date{
+  float: left;
+}
+input{
+  border-radius: 3px;
+  border: solid #D6D6D6 1px;
+  width: 200px;
+  height: 30px;
+}
+#row{
+  width: 97px;
+}
+#submit{
+  width: 205px;
+}
