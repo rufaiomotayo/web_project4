@@ -3,7 +3,7 @@ session_start();
 $loginUsername = $_POST["login_username"];
 $loginPassword = $_POST["login_password"];
 if($loginUsername == $_COOKIE["username"] && $loginPassword == $_COOKIE["password"]){
-  header("location: pg1.php");
+  header("location: homepage.html");
 ?>
 <!-- <a href="logout.php">logout</a> -->
 <?php
