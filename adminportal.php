@@ -10,15 +10,9 @@
 
 <body>
 
-<div class="topnav">
-  <a href="logout.php">Logout</a>
-  <div class="search-container">
-    <form action="REPLACETHIS.php">
-      <input type="text" placeholder="Search.." name="search">
-      <button type="submit"><i class="fa fa-search"></i></button>
-    </form>
-  </div>
-</div>
+<ul class="navbar">
+  <li><a href="logout.php">Logout</a>
+</ul>
 
 	<h1>GameStore</h1>
 	<div class = "container2">
