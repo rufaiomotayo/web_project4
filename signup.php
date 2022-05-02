@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="signup_login.css">
   </head>
   <body>
-    <h1>Welcome to the Site!</h1>
+    <h1>Welcome</h1>
     
     <div class="enter">
       <form class="" action="signup_submit.php" method="post">
         <div class="enter_input">
-          <p>Sign Up</p>
+          <p><b>Sign Up</b></p>
           <div class="input_box">
             <input type="text" name="username" placeholder="Username"><br>
           </div>
