@@ -14,19 +14,21 @@
     <div class="enter">
       <form class="" action="signup_submit.php" method="post">
         <div class="enter_input">
-          <p>Sign up </p>
+          <p>Sign Up</p>
           <div class="input_box">
             <input type="text" name="username" placeholder="Username"><br>
           </div>
           <div class="input_box">
-            <input type="text" name="password" placeholder="Password"><br>
+            <input type="password" name="password" placeholder="Password"><br>
           </div>
         </div>
-        <input type="submit" name="GO">
+        <input  class="submit" type="submit" name="GO">
       </form>
+      <br><br>
     </div>
-    <p>Already an user? <br>
-      <a href="login.php">Login</a>
+    <br>
+    <p>
+      <a href="login.php">Already an user?</a>
     </p>
   </body>
 </html>

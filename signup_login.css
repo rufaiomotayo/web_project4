@@ -1,43 +1,66 @@
-body{
+body {
   /* background: navy; */
   font-family: sans-serif;
 
 }
-h1,h2{
+
+h1,
+h2 {
   text-align: center;
   color: black;
 }
-p{
+
+p {
   text-align: center;
   color: black;
 }
-input{
+
+input {
   border-radius: 5px;
   width: 200px;
   height: 30px;
 }
-a{
+
+a {
   text-align: center;
   color: black;
   text-decoration: none;
 }
-a:hover{
+
+a:hover {
   color: orange;
   text-decoration: none;
 }
-.enter{
+
+.enter {
   text-align: center;
   display: block;
+  border: black solid 2px;
+  border-radius: 25px;
+  margin-left: 30%;
+  margin-right: 30%;
 }
-.enter_input{
+
+.enter_input {
   display: flex;
   flex-direction: column;
   /* color: white; */
 }
-.input_box{
+
+.input_box {
   display: inline-block;
   font-size: 17px;
   margin: auto;
   padding: 6px 0;
   width: 364px;
+}
+
+.submit {
+  background-color: white;
+  color: black;
+}
+
+.submit:hover {
+  background-color: black;
+  color: white;
 }
