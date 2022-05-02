@@ -1,18 +1,19 @@
 body {
   /* background: navy; */
   font-family: sans-serif;
+  background-color: #173341;
 
 }
 
 h1,
 h2 {
   text-align: center;
-  color: black;
+  color: #f9c495;
 }
 
 p {
   text-align: center;
-  color: black;
+  color: #f9c495;
 }
 
 input {
@@ -23,19 +24,19 @@ input {
 
 a {
   text-align: center;
-  color: black;
+  color: #f9c495;
   text-decoration: none;
 }
 
 a:hover {
-  color: orange;
+  color: #152e82;
   text-decoration: none;
 }
 
 .enter {
+  border: #f9c495 solid 5px;
   text-align: center;
   display: block;
-  border: black solid 2px;
   border-radius: 25px;
   margin-left: 30%;
   margin-right: 30%;
@@ -56,11 +57,14 @@ a:hover {
 }
 
 .submit {
-  background-color: white;
-  color: black;
+  background-color: #2c6981;
+  color: #f9c495;
 }
 
 .submit:hover {
-  background-color: black;
-  color: white;
+  background-color: #173341;
+  color: #f9c495;
+  border: #f9c495 solid 1px;
 }
+
+div {}

@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="signup_login.css">
   </head>
   <body>
-    <h1>Welcome </h1>
+    <h1>Welcome to GameStore</h1>
     <div class="enter">
-    <p>Log In</p>
+    <p><b>Log In</b></p>
       <form class="" action="login_submit.php" method="post">
         <div class="enter_input">
           <div class="input_box">
