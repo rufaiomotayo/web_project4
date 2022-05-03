@@ -182,7 +182,8 @@ ul.navbar {
 
 
 
-h1 {
+h1,
+h2 {
 
   /*width: 1980px;*/
   text-align: center;
@@ -216,25 +217,35 @@ h1 {
     8px 28px 35px rgba(0, 0, 0, 0.9);
 }
 
+/* 
 h2 {
   font-family: 'Courier New', monospace;
   color: gold;
   text-shadow: 2px 2px #000000;
 
 
-}
+} */
 
 
 h3 {
   font-family: Garamond;
   color: gold;
   text-shadow: 2px 2px #000000;
+}
 
-
+.service_div {
+  border: #f9c495 5px solid;
+  border-radius: 25px;
+  padding: 25px;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 
-
+.service_img {
+  width: 300px;
+  height: 300px;
+}
 
 ul.navbar li {
   background: #f9c495;
