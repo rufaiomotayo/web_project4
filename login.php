@@ -21,6 +21,12 @@
             <input type="password" name="login_password" placeholder="Password"><br>
           </div>
         </div>
+        <label for="trade" style="color:#f9c495;">Choose to Buy or Sell:</label>
+        <select name="buy_sell" id="trade" multiple>
+          <option name="buy" value="Buying">Buying</option>
+          <option name="sell" value="Selling">Selling</option>
+        </select>
+        <br><br>
         <input class="submit" type="submit" name="GO">
       </form>
       <br><br>
