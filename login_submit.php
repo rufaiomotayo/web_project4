@@ -2,8 +2,14 @@
 session_start();
 $loginUsername = $_POST["login_username"];
 $loginPassword = $_POST["login_password"];
+$buyORsell = $_POST["buy_sell"];
 if($loginUsername == $_COOKIE["username"] && $loginPassword == $_COOKIE["password"]){
-  header("location: homepage.html");
+  if($buyORsell == Buying){
+    header("location: buyerportal.php");
+  }
+  if($buyORsell == Selling){
+    header("location: sellerportal.php");
+  }
 ?>
 <!-- <a href="logout.php">logout</a> -->
 <?php
