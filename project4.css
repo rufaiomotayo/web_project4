@@ -415,3 +415,22 @@ body {
 .team_container {
   padding: 50px;
 }
+
+.outer_pic {
+  width: 300px;
+  height: 200px;
+}
+
+
+.inner_pic {
+  width: 300px;
+  height: 200px;
+}
+
+.center_div {
+  width: 100%;
+  border-radius: 25px;
+  padding: 25px;
+  margin-left: 23%;
+  margin-right: 15%;
+}
